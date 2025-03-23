@@ -16,3 +16,9 @@ The keypad is connected directly to the XIAO ESP32C3 - no external components.
 Tested with this keypad.
 
 ![LC_Keypad](https://github.com/user-attachments/assets/1f583514-181d-4db8-90d8-bae9ea7c5f31)
+
+## Wake from Deep Sleep on ESP32-C3 with either a High or Low on GPIO.
+This is a simple Arduino application for testing the wake using different GPIO levels on differing pins.
+
+The Deep Sleep Wake Enable can be called multiple times for each wake state (in Arduino), either a High or Low state.
+ESP32-C3 also supports wake on transitions, either or both.
